@@ -30,9 +30,9 @@
 /*nav related styles*/
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: 0 200px;
+  margin: 0 180px;
 }
 .nav-title {
   color: #181818;
@@ -59,9 +59,9 @@ nav a {
 /* header related styles*/
 .header {
   background-color: #fff8f4;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 .banner {
   padding: 30px 30px 0 150px;
@@ -91,6 +91,9 @@ nav a {
 }
 .banner .banner-content {
   max-width: 500px;
+}
+.btn-pair{
+    margin-right: 25px;
 }
 /*main section styles*/
 main {
