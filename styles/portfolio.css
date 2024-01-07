@@ -93,10 +93,30 @@ nav a {
   max-width: 500px;
 }
 /*main section styles*/
+main {
+  max-width: 1140px;
+  margin: 0 auto; /*horizontal align korar jnno ei auto kajer onk*/
+}
 /* about section styles*/
 .about {
   margin: 130px 0;
   padding: 130px 156px;
   border-radius: 10px;
   background: #fff8f3;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-info {
+  text-align: center;
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+}
+.info-title{
+    margin-bottom: 5px;
+}
+.info-description{
+    margin-top: 0;
 }
